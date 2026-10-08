@@ -1,0 +1,8 @@
+{
+  "buildCommand": "cd web-crm && npm install && npm run build",
+  "outputDirectory": "web-crm/dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
